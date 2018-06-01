@@ -90,7 +90,7 @@ inv_y = scaler.inverse_transform(inv_y)
 inv_y = inv_y[:,0]
 # 計算RMSE大小
 rmse = sqrt(mean_squared_error(inv_y, inv_yhat))
-# 列印数据
+# 列印數據
 print('Test RMSE: %.3f' % rmse)
 print(inv_y[:10])
 # 繪制歷史數據
